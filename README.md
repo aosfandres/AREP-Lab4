@@ -19,3 +19,58 @@ public class HelloController {
 	}
 }
 ```
+
+# REQUISITOS
+- Java 
+- Maven 
+
+
+# DISEÑO
+El despliegue de la aplicacion esta hecho en Heroku el cual usa un Dyno para soportar la app y por medio del protocolo HTTP el cliente o usuario final puede hacer uso de la aplicacion.
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/diagrama.PNG)
+
+# USO
+- clonar el repositorio ``` git clone https://github.com/aosfandres/AREP-Lab4```
+- construir el proyecto ```mvn package```
+- ejecutar el proyecto ```java -cp target/classes edu.escuelaing.arep.mySpring.MySpring  edu.escuelaing.arep.App``` 
+- ingresar a http://localhost:36000/ 
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/1.PNG)
+
+- alli podra ver y acceder a los recursos disponibles
+
+- imagen
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/2.PNG)
+
+- imagen
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/3.PNG)
+
+- saludo
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/4.PNG)
+
+- archivo js de prueba
+
+![](https://github.com/aosfandres/AREP-Lab4/blob/master/images/5.PNG)
+
+
+# DOCUMENTO LATEX
+[TALLER DE ARQUITECTURAS DE SERVIDORES DE APLICACIONES](https://github.com/aosfandres/AREP-Lab4/blob/master/LatexDocument.pdf)
+
+# DOCUMENTACION (JAVADOC)
+Para generar la documentacion con maven uasr mvn javdoc:javadoc en consola
+[JAVADOC](https://github.com/aosfandres/AREP-Lab4/blob/master/JAVADOC.lnk)
+
+# DESPLIEGUE
+
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://areplab4-spring.herokuapp.com/)
+
+# AUTOR
+Andres Orlando Sotelo Fajardo 
+
+# LICENCIA
+
+[LICENSE](https://github.com/aosfandres/AREP-Lab4/blob/master/LICENSE)

@@ -1,13 +1,17 @@
 package edu.escuelaing.arep;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import edu.escuelaing.arep.mySpring.RequestMapping;
+
+
+public class App {
+
+    @RequestMapping("/hello")
+    public static void saludo() {}
+    @RequestMapping("/zapatillas")
+    public static void zapatillas(){}
+    @RequestMapping("/balon")
+    public static void balon(){}
+    @RequestMapping("/js")
+    public static void js(){}
+
 }
